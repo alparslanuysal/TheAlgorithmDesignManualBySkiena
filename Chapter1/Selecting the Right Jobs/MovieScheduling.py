@@ -60,5 +60,5 @@ if __name__ == '__main__':
 
     movieScheduler = MovieScheduler(movies)
     movieScheduler.OptimalScheduling()
-    for x in movieScheduler.scheduledJobs:
-        print("Job : " + x.name)ss
+    for _x in movieScheduler.scheduledJobs:
+        print("Job : " + _x.name)
